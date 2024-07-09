@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: D8DFE8;
+    
+}
+.contenedor{
+
+    width: 80%;
+    margin: auto;
+}
+.titulo{
+    padding: 1rem 0;
+}
+.parrafo{
+    padding: 1rem 0;
+    margin: .5rem;
+}
+@media (min-width: 768px) { 
+    .seccion{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+}
+
+.seccion_1{
+    padding: 2rem;
+    border-radius: 2rem;
+}
+textarea{
+    font-size: 2rem;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 1rem;
+}
+input{
+    border: none;
+}
+.seccion_2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    margin-top: 1rem;
+}
+.seccion_2 img{
+    max-width: 100%;
+    height: auto;
+}
+.btn_1{
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #264c85;
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+.btn_2{
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #e66259;
+    font-size: 1rem;
+    color: white;   
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+.btn_1:hover{
+    background-color: #2056a8;
+}
+.btn_2:hover{
+    background-color: #f36f65;
+}
+span{
+    color:#f08e87;
+    
+}
